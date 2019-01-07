@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    tools:context=".MainActivity"
+    tools:layout_editor_absoluteY="81dp"
+    android:orientation="vertical"
+    android:padding="5dp"
+    >
+
+
+
+    <!-- waga -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/weight_textfield_label"
+        />
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/tip_weight"
+        android:layout_marginTop="5dp"
+        android:id="@+id/weight_input"
+        />
+
+    <!-- wzrost -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="@string/height_textfield_label"
+        />
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/tip_height"
+        android:layout_marginTop="5dp"
+        android:id="@+id/height_input"
+        />
+
+    <!-- wiek -->
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:onClick="onClickPickDateBtn"
+        android:text="@string/age_button_label"
+        android:id="@+id/pickDateBtn"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="@string/date_label"
+        android:id="@+id/date_label"
+        />
+
+    <!-- płeć -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="@string/gender"
+        />
+
+    <Spinner
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:entries="@array/gender_selection"
+        android:layout_marginTop="5dp"
+        android:id="@+id/gender"
+        />
+
+
+    <!-- wybór modelu -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="@string/calc_type_textfield_label"
+        />
+
+    <Spinner
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:entries="@array/calc_type_array"
+        android:id="@+id/calcType"
+        />
+
+    <!-- wynik -->
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="@string/calc_button_label"
+        android:onClick="onClickCalcBtn"
+        android:id="@+id/calcBtn"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="Wynik"
+        android:id="@+id/answer"
+        />
+
+
+
+
+
+
+</LinearLayout>

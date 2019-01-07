@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">lista8</string>
+
+    <!-- płeć -->
+    <string name="gender">Płeć</string>
+
+    <!-- lista rozwijalna- płeć -->
+    <string-array name="gender_selection">
+        <item name="man">mężczyzna</item>
+        <item name="woman">kobieta</item>
+    </string-array>
+
+    <!-- wyświetlane nazwy- labele -->
+    <string name="height_textfield_label">Wzrost[cm]</string>
+    <string name="weight_textfield_label">Waga[kg]</string>
+    <string name="age_button_label">Wybierz datę urodzenia</string>
+    <string name="answer_textfield_label">Wynik:</string>
+    <string name="calc_type_textfield_label">Wybierz model:</string>
+    <string name="date_label">Tu pojawi się wybrana data</string>
+    <string name="calc_button_label">Oblicz</string>
+
+    <!-- lista rozwijalna -->
+    <string-array name="calc_type_array">
+        <item name="hb">Harris-Benedict</item>
+        <item id="somethinganotherthanhb">Mifflin</item>
+    </string-array>
+
+    <!-- tipy -->
+    <string name="tip_height">Wpisz wzrost [cm]</string>
+    <string name="tip_weight">Wpisz wagę [kg]</string>
+
+    <string name="error">Nieprawidłowy format liczb</string>
+
+    <string name="invalid_date">Proszę wybrać poprawną datę urodzenia</string>
+
+</resources>
